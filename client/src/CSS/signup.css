@@ -1,0 +1,76 @@
+body {
+  background-color: rgba(45, 45, 45, 1);
+}
+.signup {
+    display: flex;
+    flex-direction: row;
+    margin-left: 250px;
+}
+.signup h1{
+    font-size: 50px;
+    color: white;
+}
+.logo {
+    font-size: 45px;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.logo p{
+    color: white;
+    font-weight: bold;
+    margin-top: -50px;
+    align-items: center;
+    margin-left: -150px;
+}
+.signup img{
+    width: 450px;
+    height: 450px;
+    margin-right: 150px;
+}
+.signup .container{
+  flex-direction: column;
+}
+.signup label {
+  color: white;
+  font-size: 30px;
+}
+.signup form {
+  background-color: transparent;
+  font-size: 30px;
+  color: white;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.signup input[type="email"],
+.signup input[type="text"],
+.signup input[type="password"] {
+  background-color: white;
+  color: black;
+  width: 400px;
+  height: 40px;
+  border-radius: 15px;
+  font-size: 25px;
+}
+button {
+    background-color: #00e600; /* Softer green */
+    font-size: 18px;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 12px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #00cc00;
+}
+.signup .link{
+  flex-direction: column;
+  font-size: 25px;
+  color: white;
+}
