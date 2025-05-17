@@ -1,0 +1,76 @@
+body {
+  background-color: rgba(45, 45, 45, 1);
+}
+.login {
+    display: flex;
+    flex-direction: row;
+    margin-left: 250px;
+}
+.login h1{
+    font-size: 50px;
+    color: white;
+}
+.logo {
+    font-size: 45px;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.logo p{
+    color: white;
+    font-weight: bold;
+    margin-top: -50px;
+    align-items: center;
+    margin-left: -150px;
+}
+.login img{
+    width: 450px;
+    height: 450px;
+    margin-right: 150px;
+}
+.login .container{
+  flex-direction: column;
+}
+.login label {
+  color: white;
+  font-size: 30px;
+}
+.login form {
+  background-color: transparent;
+  font-size: 30px;
+  color: white;
+  flex-direction: column;
+  margin-top: 80px;
+}
+.login input[type="email"],
+.login input[type="text"],
+.login input[type="password"] {
+  background-color: white;
+  color: black;
+  width: 400px;
+  height: 40px;
+  border-radius: 15px;
+  font-size: 25px;
+}
+button {
+    background-color: #00e600; /* Softer green */
+    font-size: 18px;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 12px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #00cc00;
+}
+.login .link{
+  flex-direction: column;
+  font-size: 25px;
+  color: white;
+}
